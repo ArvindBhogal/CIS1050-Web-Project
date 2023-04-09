@@ -1,4 +1,4 @@
-CIS1050 Web Programming Assignment 3, Arvind Bhogal 1014659
+CIS1050 Web Programming Assignment 3, Arvind Bhogal
 
 Couple things to note:
 
