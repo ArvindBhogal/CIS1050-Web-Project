@@ -1,0 +1,145 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: url('resources/image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 10px;
+}
+
+div.title {
+    padding-top: 50px;
+    padding-bottom:20px;
+    font-size: 22pt;
+    text-align: center;
+}
+div.textBox {
+    background-image: url('resources/test.png');
+    background-size: cover;
+    height:250px;
+    padding-left:85px;
+}
+
+div.textBox img {
+    padding-top:65px;
+}
+
+div.textBox p {
+    position: relative;
+    top: 57%;
+    left: 44%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    color: white;
+}
+
+div.transBox {
+    margin: 30px;
+    background: rgba(255,255,255,0.8);
+    border: 2px solid black;
+}
+
+div.transBox p {
+    margin:1%;
+    text-align: center;
+}
+
+div.transBox img {
+    height:200px;
+}
+
+div.transBox a:hover {
+    color: green;
+}
+
+div.subsection {
+    padding-left:20px;
+    height:275px;
+}
+
+div.subsection p {
+   padding-left:360px;
+}
+
+div.videoSection {
+    text-align: center;
+    padding:40px;
+}
+
+a:link {
+    color:cadetblue;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:visited {
+    color:white;
+    text-underline-mode: true;
+}
+
+.topnav a:hover {
+    background-color: #c83f49;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #87CEEB;
+    color: black;
+}
+
+.topnav img {
+    height:20px;
+    width:20px;
+    padding-right:5px;
+}
+
+img {
+    float: left;
+}
+
+.column {
+    float: left;
+    width:33.33%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.column img {
+    display: block;
+    margin-left: 33%;
+    margin-right: auto;
+    padding-top: 10px;
+    float: initial;
+}
+
+.column p {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'renogareregular';
+    src: url('renogare-regular-webfont.woff2') format('woff2'),
+    url('renogare-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div {
+    font-family: renogareregular;
+}
