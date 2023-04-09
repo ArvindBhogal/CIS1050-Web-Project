@@ -1,3 +1,7 @@
+An old project from university where I made a controls/speedrun guide for the video game "Celeste". 
+
+--------------------------------------------------------------------------------------------------------------------------------
+
 CIS1050 Web Programming Assignment 3, Arvind Bhogal
 
 Couple things to note:
